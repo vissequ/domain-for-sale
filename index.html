@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Sales Inquery || [Your Domain]</title>
+        <title>Domain for Sale | Celo.art</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -23,9 +23,14 @@
                               <span class="text-green">Celo.art</span>
                               <small>available for sale</small>
                           </h1>
-                          <!-- <p class="mt-4">
-                              For instantly purchase. Please make an order.
-                          </p> -->
+                          <p class="mt-4">
+                              <em>Please fill out the form to the right<br>or contact the domain owner on Discord:<br><br></em><strong>vissequ#1301</strong>
+                          </p>
+                          <!-- <div class="pt-5">
+                              <label for="name">
+                              <a class="btn text-white bg-green btn-lg">Contact on Discord</a>
+                              </label>
+                          </div> -->
                           <!-- <div class="pt-5">
                               <label for="name">
                               <a class="btn text-white bg-green btn-lg">Buy now for $4999</a>
@@ -77,7 +82,7 @@
                                                       type="text"
                                                       name="phone"
                                                       class="form-control"
-                                                      placeholder="Phone number (Required)"
+                                                      placeholder="Phone number (Optional)"
                                                     >
                                                 </div>
                                               </div>
@@ -91,7 +96,7 @@
                                                   placeholder="Offer price in USD? (Required)">
                                             </div>
                                             <div class="form-group">
-                                                <textarea name="comments" class="form-control" placeholder="Message (optional)"></textarea>
+                                                <textarea name="comments" class="form-control" placeholder="Message (Optional)"></textarea>
                                             </div>
                                             <div class="form-group">
                                               <div id="recaptcha" class="g-recaptcha" data-sitekey="6Lc_sf8aAAAAAFk3KIcYvqcIoo1HeCOZu4faK3DA" data-callback="onSubmit" data-size="invisible"></div>
@@ -126,13 +131,13 @@
                   email: true
                 },
                 phone: {
-                  required: true,
+                  required: false,
                   minlength:10,
                   maxlength:10
                 },
                 price: "required",
                 comments: {
-                  maxlength: 500
+                  maxlength: 5000
                 }
               },
               messages: {
@@ -151,7 +156,7 @@
                   price: 'Please enter offered price.'
                 },
                 comments: {
-                  maxlength: 'Message length must be less than 500 character.'
+                  maxlength: 'Message length must be less than 5000 characters.'
                 }
               }
           });

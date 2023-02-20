@@ -38,7 +38,7 @@
 <html lang="en">
 		<head>
 				<meta charset="utf-8">
-				<title>Sales Inquery || [Your Domain]</title>
+				<title>Sales Offer || Celo.art</title>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0">
 				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
 				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -53,7 +53,7 @@
 							<div class="bg-faded col-sm-6 text-center col-fixed">
 									<div class="vMiddle">
 										<h1 class="pt-4 h2">
-											<span>Thak you for offer, I will contact as soon as possible. Cheers !!!</span>
+											<span>Thank you for your offer. I will contact as soon as possible.</span>
 										</h1>
 										<div class="row d-md-flex text-center justify-content-center text-primary action-icons">
 											<div class="col-sm-4">
@@ -67,7 +67,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 offset-sm-6 px-0">
+							<!-- <div class="col-sm-6 offset-sm-6 px-0">
 									<section class="bg-alt">
 											<div class="row height-100">
 													<div class="col-sm-8 offset-sm-2 mt-2">
@@ -79,7 +79,7 @@
 													</div>
 											</div>
 									</section>
-							</div>
+							</div> -->
 					</div>
 				</div>
 			</section>
